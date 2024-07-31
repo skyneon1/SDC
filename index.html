@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SDC</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="images" href="/images/fevicon.jpg">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light nav_elements" href="#">SDC</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light nav_elements"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light nav_elements" href="#">Events</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light nav_elements"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Discover
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item nav_elements" href="#"
+                    >Achievements</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item nav_elements" href="#">Projects</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link active text-light nav_elements"
+                aria-current="page"
+                href="#"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2 nav_elements1"
+              type="search"
+              placeholder="Search Projects"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success nav_elements1" type="submit">
+              Search
+            </button>
+          </form>
+          <div class="mx-2 register">
+            <button class="btn nav_elements1 registerbtn">Log in</button>
+          </div>
+          <div class="mx-2 register">
+            <button class="btn nav_elements1 registerbtn">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      data-bs-interval="3000"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/car3.png"
+              class="d-block w-100"
+              alt="..."
+              height="550"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Welcome to the Software Development Club.!</h3>
+              <p>INTRODUCING TECH TEAMS</p>
+              <button type="button" class="btn btn-outline-light">
+                WEB DEVELOPMENT
+              </button>
+              <button type="button" class="btn btn-outline-light">
+                ANDROID DEVELOPMENT
+              </button>
+              <button type="button" class="btn btn-outline-light">
+                MACHINE LEARNING
+              </button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/car2.jpg"
+              class="d-block w-100"
+              alt="..."
+              height="550"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>CREATE</h2>
+              <p>LET ALL YOUR CREATIVITY COME OUT</p>
+              <button type="button" class="btn btn-outline-light">
+                DESIGNING
+              </button>
+              <button type="button" class="btn btn-outline-light">
+                CONTENT WRITING
+              </button>
+              <button type="button" class="btn btn-outline-light">
+                SOCIAL MEDIA
+              </button>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="images/car1.jpg"
+              class="d-block w-100 img_thub"
+              alt="..."
+              height="550"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h2>ESPORTS</h2>
+              <p>EXPLORE THE OTHER SIDE OF SDC</p>
+              <button type="button" class="btn btn-outline-light">
+                SPORTS
+              </button>
+              <button type="button" class="btn btn-outline-light">
+                ORGANIZERS
+              </button>
+              <button type="button" class="btn btn-outline-light">
+                SPONSERS
+              </button>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container my-5">
+      <div class="row mb-2">
+        <div class="col-md-6 thumbnail">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static bg_color">
+              <strong class="d-inline-block mb-2 text-primary-emphasis"
+                >What is SDC?</strong
+              >
+              <h3 class="mb-0">Software Developer Club</h3>
+              <div class="mb-1 text-body-secondary">Discover>Learn>Create</div>
+              <p class="card-text mb-auto">
+                Welcome to the heart of software innovation, where creativity
+                meets code. As the leading Software Development Club, we turn
+                visionary ideas into groundbreaking solutions.
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue reading
+                  <svg class="bi">
+                    <use xlink:href="#chevron-right"></use>
+                  </svg>
+                </a>
+              </p>
+            </div>
+
+            <div class="col-auto d-none d-lg-block">
+              <img
+                src="/images/thumb1.jpg"
+                class="bd-placeholder-img img_thub"
+                width="200"
+                height="250"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 thumbnail">
+          <div
+            class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative"
+          >
+            <div class="col p-4 d-flex flex-column position-static bg_color">
+              <strong class="d-inline-block mb-2 text-success-emphasis"
+                >Our goals</strong
+              >
+              <h3 class="mb-0">Community for nerds</h3>
+              <div class="mb-1 text-body-secondary">Learn>Teach>Grow</div>
+              <p class="mb-auto">
+                Our goal is to introduce students to the latest industry technologies while fostering a vibrant community for tech enthusiasts.  
+                <a
+                  href="#"
+                  class="icon-link gap-1 icon-link-hover stretched-link"
+                >
+                  Continue reading
+                  <svg class="bi">
+                    <use xlink:href="#chevron-right"></use>
+                  </svg>
+                </a>
+              </p>
+            </div>
+
+            <div class="col-auto d-none d-lg-block">
+              <img
+                src="images/thumb2.jpg"
+                class="bd-placeholder-img img_thub"
+                width="200"
+                height="250"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col card_element1">
+            <div class="card shadow-sm cover collider">
+              <img src="images/room11.jpg" class="mine1" alt="" />
+              <!-- <title>Placeholder</title> -->
+              <rect width="100%" height="100%" fill="#55595c"></rect>
+              <text x="50%" y="50%" fill="#eceeef" dy=".3em">OUR MODERATORS</text>
+              <div class="card-body">
+                <p class="card-text">
+                  The backbone of our club, our dedicated moderators ensure everything runs smoothly, from managing events to overseeing daily operations, so we can offer you the very best of our community.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Apply
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Contact
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col card_element1">
+            <div class="card shadow-sm cover collider">
+              <img src="images/room21.jpg" class="mine1" alt="" />
+              <!-- <title>Placeholder</title> -->
+              <rect width="100%" height="100%" fill="#55595c"></rect>
+              <text x="50%" y="50%" fill="#eceeef" dy=".3em"
+                >THE NERDS</text
+              >
+              <div class="card-body">
+                <p class="card-text">
+                  The Nerds, our dedicated tech team, are the backbone of our club, tackling complex challenges and driving our technological advancements to keep us at the forefront of innovation.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Apply
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Contact
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col card_element1">
+            <div class="card shadow-sm cover collider">
+              <img src="images/room31.jpg" class="mine1" alt="" />
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect>
+              <text x="50%" y="50%" fill="#eceeef" dy=".3em">CREATIVE TEAM</text>
+              <div class="card-body">
+                <p class="card-text">
+                  The Creative Teams, including design and content specialists, are the artistic force behind our club, crafting engaging visuals and dynamic content that drive our technological innovations forward.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Apply
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      Contact
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="heading">
+      <p>Events</p>
+    </div>
+    <section class="section">
+
+      <div class="blog  " id="services">
+          <p class="sectionTag text-big">Engage, Innovate, Compete: <br> Join Our Exciting SDC Events!</p>
+          <p class="sectionSubTag  text-small">
+            At the Software Development Club (SDC), we are passionate about creating opportunities for growth and engagement through a variety of dynamic events. Our flagship Hackathons challenge participants to solve real-world problems and innovate under time constraints, fostering creativity and teamwork. We also host hands-on workshops that delve into key areas such as web development, Android development, and design, providing practical skills and in-depth knowledge to help you advance in these fields.
+            In addition to our technical workshops, we organize eSports events where members can compete in popular games, enjoy friendly competition, and build camaraderie. These events are designed to cater to diverse interests and skill levels, ensuring there's something for everyone in the SDC community. Join us to learn, compete, and connect!
+          </p>
+      </div>
+      <div class="thumbnail">
+          <img src="./images/events.png" alt="War end">
+      </div>
+  </section>
+  <div class="heading">
+    <p>Achievements</p>
+  </div>
+  <section class="section section-left" >
+      <div class="blog ">
+          <p class="sectionTag text-big">Celebrating Excellence: SDC's Triumphs and Awards!</p>
+          <p class="sectionSubTag  text-small">
+            The Software Development Club (SDC) takes pride in our track record of success and recognition in the tech community. We have successfully conducted multiple hackathons, showcasing exceptional problem-solving skills and innovation among our members. Our team has also triumphed in hackathons hosted by other colleges, earning top honors and recognition for our creative solutions and technical prowess. Additionally, the club has been awarded accolades for our contributions to tech development and community engagement, underscoring our commitment to excellence and growth. These achievements reflect the hard work and dedication of our members and the vibrant spirit of SDC.
+          </p>
+              
+          </p>
+      </div>
+      <div class="thumbnail">
+          <img src="./images/achievment.png" alt="War end">
+      </div>
+  </section>
+  <div class="heading">
+    <p>Projects</p>
+  </div>
+  <section class="section">
+      <div class="blog ">
+          <p class="sectionTag text-big">Empowering Innovation: Explore SDC's Cutting-Edge Projects!</p>
+          <p class="sectionSubTag  text-small">
+            The Software Development Club (SDC) thrives on transforming innovative ideas into impactful projects. Our members engage in a wide array of initiatives, from developing cutting-edge apps and software solutions to creating engaging websites and tools. These projects not only enhance technical skills but also address real-world challenges, contributing to both personal growth and community development. By collaborating on diverse projects, our members gain valuable experience and make significant strides in the tech industry. 
+      </div>
+      <div class="thumbnail">
+          <img src="./images/projects.png" alt="War end">
+      </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <h2 class="text-center">Contact Us</h2>
+    <div class="form">
+        <input class="form-input" type="text" name="name" id="name" placeholder="Name">
+        <input class="form-input" type="text" name="phone" id="phone" placeholder="Contact Number">
+        <input class="form-input" type="email" name="email" id="email" placeholder="Email Id">
+        <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Enter your query"></textarea>
+        <button class="btn btn-dark">Submit</button>
+    </div>
+</section>
+
+
+    <!-- footer -->
+
+    <div class="container">
+      <footer class="d-flex flex-wrap align-items-center justify-content-center py-3  border-top">
+        <div class="col-md-4 d-flex align-items-center justify-content-center">
+          <span class="mb-3 mb-md-0 text-body-secondary">Made with ❤️ by- Anand Ojha</span>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="js" href="script.js" />
+  </body>
+</html>
